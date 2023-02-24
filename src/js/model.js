@@ -16,7 +16,7 @@ const persistBookmarks = function () {
   localStorage.setItem('bookmarks', JSON.stringify(state.bookmarks));
 };
 
-createRecipeObject = function (recipe) {
+const createRecipeObject = function (recipe) {
   return {
     id: recipe.id,
     title: recipe.title,
